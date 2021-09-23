@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 90%; 
+    /* box-shadow: 1px 2px 40px 2px gray; */
+    background-color:pink;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    padding: 20px 80px;
+}
+nav ul li a{
+    font-size: 18px;
+    margin: 0px 18px;
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: blueviolet;
+}
+.contact-button{
+    background-color: blueviolet;
+    color:black;
+    padding: 8px 25px;
+    border-radius: 20px;
+}
+.link-contact-white:hover{
+    color: white;
+}
+.seccion-uno-presentacion{
+    display: flex;
+    
+}
+.greeting-name{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.description-presentacion{
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+.container1-section1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 80px;
+    align-items: center; 
+    padding: 5%;
+}
+.container2-section1{
+    width: 50%;
+}
+.imagen-dev-principal{
+    width: 80%;
+    padding: 5%;
+    margin: 10%;
+}
+.button{
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 15px;
+    width: 30%;
+    display: flex;
+    justify-content: center;   
+}
+.seccion-dos-conocimientos{
+    border: 1px solid orange;  
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+.description-conocimientos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+/*.button-formulario{
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+    padding: 13px 15px;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+/*.nav-header{
+    float: right;
+}
+.nav-menu{
+    display:flex;
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    margin: 15px 40px 0px auto;
+    
+}
+.nav-link:hover{
+    color: blueviolet;
+}
+.nav-link-diferente{
+    text-decoration: none;
+    background-color: blueviolet;
+    border-radius: 80px;
+    color: white;
+}
+.nav-link-diferente:hover{
+    opacity: 80%;
+}
+*/

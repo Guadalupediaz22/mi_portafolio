@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><!--Parte no visible-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="encabezado">  <!--encabezado de mi pagina-->
+    <!--navegación-->
+        <nav><section class="section1">
+            <ul>
+                <li><a href="#linkhola">HOLA</a></li>
+                <li><a href="#linkconocimientos">CONOCIMIENTOS</a></li>
+                <li><a href="#projects">PROYECTOS</a></li>
+                <li class="contact-button"><a class="link-contact-white" href="#contactame">CONTACTO</a></li>
+            </ul>
+        </nav></section>
+    </header>
+    <main><!--Parte principal de la página-->
+    <section class="seccion-uno-presentacion" id="linkhola">
+     <div class="container1-section1"><!--presentacion-->
+         <p class="greeting-name">¡Hola! Soy</p>
+
+         <h1 class="name">Guadalupe Diaz</h1>
+
+         <p class="description-presentacion">Futura Desarrolladora Frontend, amante de la música y fan de tik tok</p>
+
+         <a class="button" href="#projects">LO QUE HAGO</a>
+     </div>
+     <div class="container2-section1"><!--Imagen svg-->
+         <img src="imagenpresentacion.svg" class="imagen-dev-principal" alt="imagen de presentacion" width="250">
+     </div>
+    </section>
+
+    <section class="seccion-dos-conocimientos" id="linkconocimientos"><!--imagenes de mis conocimientos, uso svg-->
+       <div class="container2-section2">
+           <h2 class="title">Mis Conocimientos</h2>
+
+           <p class="description-conocimientos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo ab labore assumenda iusto quas. Cum veritatis iure iste molestiae mollitia eos dolor! Iure consectetur unde laudantium, alias adipisci veritatis ratione!</p>  
+       </div>
+       <div class="tarjetas flex">
+               <div class="columnas flex">
+                   <div class="skills flex flex-column">
+           <img src="https://icongr.am/devicon/html5-original.svg?size=128&color=currentColor" alt="imagen de html" width="100">
+
+           <h2 class="skill-title">HTML 5</h2>
+               </div>
+                   </div>
+               <div class="skills flex flex-column">
+           <img src="https://icongr.am/devicon/css3-original.svg?size=128&color=currentColor" alt="imagen de css" width="100">
+
+           <h2 class="skill-title">CSS 3</h2>
+               </div>
+               <div class="skills flex flex-column">
+           <img src="https://icongr.am/devicon/sass-original.svg?size=128&color=currentColor" alt="imagen de sass" width="100">
+
+            <h2 class="skill-title">Sass</h2>
+               </div>
+               <div class="skills flex flex-column">
+           <img src="https://icongr.am/devicon/javascript-original.svg?size=128&color=currentColor" alt="imagen de js" width="100">
+
+           <h2 class="skill-title">JavaScript</h2>
+               </div>
+               <div class="skills flex flex-column">
+           <img src="https://icongr.am/devicon/react-original.svg?size=128&color=currentColor" alt="imagen de react" width="100">
+           <h2 class="skill-title">React</h2>
+               </div>
+               <div class="skills flex flex-column">
+           <img src="https://icongr.am/devicon/git-original.svg?size=128&color=currentColor" alt="imagen de git" width="100">
+
+           <h2 class="skill-title">GIT</h2>
+               </div>
+       </div>
+    </section>
+
+    <section class="cita"><!--citar una frase-->
+    <div class="column-content">
+    <img class="quote-icon" src="right-quote-sign.svg" alt="comillas de cierre" width="200" height="100">
+
+    <p class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nihil dolore voluptatibus numquam laboriosam, ducimus pariatur culpa eum esse ipsa a quibusdam autem. Laboriosam dolore saepe tempora qui labore eius.</p>
+
+    <h2 class="quote-autor">Someone</h2>
+    </div>
+    </section>
+
+    <section id="projects" class="proyectos"><!--proyectos que voy a ir haciendo-->
+        <div class="column-content">
+            <h2 class="title">Mis Proyectos</h2>
+
+            <p class="description-proyectos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, fugit provident corporis accusantium saepe amet, unde quia nobis commodi dignissimos non omnis quidem quasi vero accusamus odit atque sunt nam.</p>
+        </div>
+        <div class="grid-projects"><!--grilla de mis proyectos-->
+        <a href="#" target="_blank" class="proyecto">Portfolio</a>
+
+        <a href="#" target="_blank" class="proyecto">Generador de Memes</a>
+
+        <a href="#" target="_blank" class="proyecto">Match 3</a>
+
+        <a href="#" target="_blank" class="proyecto">Controlador de gastos</a>
+
+        <a href="#" target="_blank" class="proyecto">Administrador de Reuniones</a>
+
+        <a href="#" target="_blank" class="proyecto">Todo App</a>
+
+        <a href="#" target="_blank" class="proyecto">Buscador de Pelìculas</a>
+        </div>
+    </section>
+
+    <section id="contactame" class="contactame-escribime">
+    <div class="column-content">
+        <h2 class="title">Contactame</h2>
+        <p class="description-contact">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dicta omnis, error eaque pariatur ullam sed nisi tempora totam, nam placeat distinctio optio nihil enim. Quae maiores repellat ipsa sit!</p>
+        <!--mis redes sociales-->
+    </div>
+    <div class="column-content">
+        <h2 class="title">Escribime</h2>
+        <form class="cajas-formulario">
+            <label><h1>Nombre *</h1></label>
+            <input type="text" name="nombre" placeholder="P.j: Guadalupe..." required="required">
+
+            <label><h1>Apellido *</h1></label>
+            <input type="text" name="apellido" placeholder="P.j: Díaz..." required="required">
+
+            <label><h1>Email *</h1></label>
+            <input type="email" name="email" placeholder="P.j: Guadalupe@gmail.com..." required="required">
+
+            <label><h1>Mensaje *</h1></label>
+            <textarea name="comments" required="required">
+                Escriba un mensaje aquí...
+            </textarea>
+            <button class="button-formulario">Enviar</button>
+        </form>
+    </div>
+    </section>
+    <footer><!--Pie de página, links que me lleven a mis section, mis redes y hecho con amor por Guada-->
+
+    </footer>
+    </main>
+</body>
+</html>

@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
 }
+/****aqui tengo mi header, nav, lista ****/
 header{
     position: fixed;
     width: 100%;
@@ -13,7 +14,7 @@ nav{
     width: 100%;
     height: 90%; 
     /* box-shadow: 1px 2px 40px 2px gray; */
-    background-color:pink;
+    background-color: #BFCBA8;
 }
 nav ul{
     display: flex;
@@ -29,10 +30,10 @@ nav ul li a{
     color: black;
 }
 nav ul li a:hover{
-    color: blueviolet;
+    color: white;
 }
 .contact-button{
-    background-color: blueviolet;
+    background-color: #56776C;
     color:black;
     padding: 8px 25px;
     border-radius: 20px;
@@ -40,9 +41,9 @@ nav ul li a:hover{
 .link-contact-white:hover{
     color: white;
 }
+/****mi presentacion****/
 .seccion-uno-presentacion{
     display: flex;
-    
 }
 .greeting-name{
     display: flex;
@@ -79,30 +80,68 @@ nav ul li a:hover{
 }
 .button{
     text-decoration: none;
-    background-color: blueviolet;
-    color: white;
+    background-color: #5B8A72;
+    color: black;
     border-radius: 20px;
     padding: 8px 15px;
     width: 30%;
     display: flex;
     justify-content: center;   
 }
-.seccion-dos-conocimientos{
-    border: 1px solid orange;  
+/****aqui comienza mi seccion de conocimientos****/
+.seccion-dos-conocimientos{ 
+    background-color: gainsboro;
 }
 .title{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 3rem;
+    margin: 2rem;
 }
 .description-conocimientos{
     display: flex;
-    justify-content: center;
     align-items: center;
     padding: 2%;
+    margin-bottom: 5rem;
+    font-size: 1.1rem;
+    width: 50%;
 }
-
+/****aqui comienza la seccion de mi cita****/
+.section{
+    text-align: center;
+    padding: 100px 30px 120px;
+    display: flex;
+    justify-content: center; 
+}
+.quote-section{
+    background-color: #5B8A72;
+    font-size: 1.2rem;
+}
+.quote-autor{
+    font-size: 2.5rem;
+    margin-bottom: 0.8rem;
+}
+.quote-icon{
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+.quote{
+    flex-basis: 70%;
+    margin-bottom: 3rem;
+}
+/****inicio de mis proyectos****/
+/****inicio de mi form y redes****/
+.contactame-escribime{
+    display: flex;
+    margin-bottom: 3rem;
+}
+.column-content1{
+    flex-basis: 50%;
+}
+.column-content2{
+    flex-basis: 50%;
+}
 /*.button-formulario{
     text-decoration: none;
     background-color: blueviolet;
@@ -113,29 +152,3 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
 }
-/*.nav-header{
-    float: right;
-}
-.nav-menu{
-    display:flex;
-    list-style: none;
-}
-.nav-link{
-    text-decoration: none;
-    color: black;
-    margin: 15px 40px 0px auto;
-    
-}
-.nav-link:hover{
-    color: blueviolet;
-}
-.nav-link-diferente{
-    text-decoration: none;
-    background-color: blueviolet;
-    border-radius: 80px;
-    color: white;
-}
-.nav-link-diferente:hover{
-    opacity: 80%;
-}
-*/

@@ -92,6 +92,35 @@ nav ul li a:hover{
 .seccion-dos-conocimientos{ 
     background-color: gainsboro;
 }
+.columna{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.skills{
+    margin: 2rem;
+}
+.skills:hover{
+    border: 2px solid #BFCBA8;
+    color: #56776C;
+}
+.skill-title{
+    display: flex;
+    justify-content: center;
+}
+.skill-conocimiento{
+    /* width: 100%; 
+    height: 200%;*/
+    border: 2px solid #56776C;
+    background-color: white;
+    padding: 3em 5em 3em 5em;
+    border-radius: 10px;
+}
+.imagen-tarjeta{
+    display: flex;
+    justify-content: center;
+}
 .title{
     display: flex;
     justify-content: center;
@@ -100,12 +129,15 @@ nav ul li a:hover{
     margin: 2rem;
 }
 .description-conocimientos{
-    display: flex;
-    align-items: center;
-    padding: 2%;
-    margin-bottom: 5rem;
+    margin-bottom: 1.8rem;
     font-size: 1.1rem;
     width: 50%;
+}
+.container2-section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 /****aqui comienza la seccion de mi cita****/
 .section{
@@ -131,6 +163,11 @@ nav ul li a:hover{
     margin-bottom: 3rem;
 }
 /****inicio de mis proyectos****/
+.description-proyectos{
+    margin-bottom: 1.8rem;
+    font-size: 1.1rem;
+    width: 50%;
+}
 /****inicio de mi form y redes****/
 .contactame-escribime{
     display: flex;

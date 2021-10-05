@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
     <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/55efe9bfd6.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="encabezado">  <!--encabezado de mi pagina-->
@@ -46,7 +47,7 @@
            <div class="columna">
             <div class="columnas flex">
                 <div class="skills skill-conocimiento flex flex-column">
-        <img src="https://icongr.am/devicon/html5-original.svg?size=128&color=currentColor" class="imagen-tarjeta" alt="imagen de html" width="100">
+        <img src="https://icongr.am/devicon/html5-original.svg?size=128&color=currentColor" alt="imagen de html" width="100">
        
         <h2 class="skill-title">HTML 5</h2>
             </div>
@@ -105,22 +106,57 @@
         <div class="column-content">
             <h2 class="title">Mis Proyectos</h2>
 
-            <p class="description-proyectos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, fugit provident corporis accusantium saepe amet, unde quia nobis commodi dignissimos non omnis quidem quasi vero accusamus odit atque sunt nam.</p>
+            <p class="description-conocimentos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, fugit provident corporis accusantium saepe amet, unde quia nobis commodi dignissimos non omnis quidem quasi vero accusamus odit atque sunt nam.</p>
         </div>
-        <div class="grid-projects"><!--grilla de mis proyectos-->
-        <a href="#" target="_blank" class="proyecto">Portfolio</a>
+        <div class="grid-projects"><!--grilla de mis  proyectos-->
+           <div class="box-proyecto">
+            <a href="#" target="_blank" class="proyecto">
+            <img src="portafolio.svg" alt="portafolio" width="100">
+            </a>
+            <p class="name-project">Portafolio</p>
+            </div>
 
-        <a href="#" target="_blank" class="proyecto">Generador de Memes</a>
+            <div class="box-proyecto">
+            <a href="#" target="_blank" class="proyecto">
+            <img src="generadordememes.svg" alt="generador de memes" width="100">
+            </a>
+            <p class="name-project">Generador de Memes</p>
+            </div>
 
-        <a href="#" target="_blank" class="proyecto">Match 3</a>
+            <div class="box-proyecto">
+            <a href="#" target="_blank" class="proyecto">
+            <img src="match3.svg" alt="match 3" width="100">
+            </a>
+            <p class="name-project">Match 3</p>
+            </div>
 
-        <a href="#" target="_blank" class="proyecto">Controlador de gastos</a>
+            <div class="box-proyecto">
+            <a href="#" target="_blank" class="proyecto">
+            <img src="controladordegastos.svg" alt="controlador de gastos" width="100">
+            </a>
+            <p class="name-project">Controlador de gastos</p>
+            </div>
 
-        <a href="#" target="_blank" class="proyecto">Administrador de Reuniones</a>
+            <div class="box-proyecto">
+            <a href="#" target="_blank" class="proyecto">
+            <img src="admdereuniones.svg" alt="Administrador de Reuniones" width="100">
+            </a>
+            <p class="name-project">Administrador de Reuniones</p>
+            </div>
 
-        <a href="#" target="_blank" class="proyecto">Todo App</a>
+            <div class="box-proyecto">
+            <a href="#" target="_blank" class="proyecto">
+            <img src="todoapp.svg" alt="todo App" width="100">
+            </a>
+            <p class="name-project">Todo App</p>
+            </div>
 
-        <a href="#" target="_blank" class="proyecto">Buscador de Pelìculas</a>
+            <div class="box-proyecto">
+            <a href="#" target="_blank" class="proyecto">
+            <img src="buscadordepeliculas.svg" alt="buscador de pelis" width="100">
+            </a>
+            <p class="name-project">Buscador de Pelìculas</p>
+            </div>
         </div>
     </section>
 
@@ -146,12 +182,41 @@
             <textarea name="comments" required="required">
                 Escriba un mensaje aquí...
             </textarea>
-            <button class="button-formulario">Enviar</button>
+            <a class="button-formulario" href="#">Enviar</a>
         </form>
     </div>
     </section>
-    <footer><!--Pie de página, links que me lleven a mis section, mis redes y hecho con amor por Guada-->
-
+    <footer>
+    <!--nav de mi footer-->
+    <nav class="nav-footer">
+            <a class="etiqueta" href="#linkhola">HOLA</a>
+            <a class="etiqueta" href="#linkconocimientos">CONOCIMIENTOS</a>
+            <a class="etiqueta" href="#projects">PROYECTOS</a>           
+            <a class="etiqueta" href="#contactame">CONTACTO</a>
+    </nav>
+    <ol>
+        <li>
+            <a href="link-footer">
+            <i class="fab fa-github icon-footer"></i>
+            </a>
+        </li>
+        <li>
+            <a href="link-footer">
+            <i class="fab fa-linkedin-in icon-footer"></i>
+            </a>
+        </li>
+        <li>
+            <a class="link-footer">
+            <i class="fab fa-instagram icon-footer"></i>
+            </a>
+        </li>
+        <li>
+            <a class="link-footer">
+            <i class="fas fa-inbox icon-footer"></i>
+            </a>
+        </li>
+    </ol>
+    <p class="hecho">Hecho con <img src="variante-de-bordes-redondeados-en-forma-de-corazon-con-detalles-en-blanco.png" width="15"> por Guadalupe Diaz</p>
     </footer>
     </main>
 </body>

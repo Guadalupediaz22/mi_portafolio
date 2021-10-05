@@ -117,10 +117,6 @@ nav ul li a:hover{
     padding: 3em 5em 3em 5em;
     border-radius: 10px;
 }
-.imagen-tarjeta{
-    display: flex;
-    justify-content: center;
-}
 .title{
     display: flex;
     justify-content: center;
@@ -163,10 +159,31 @@ nav ul li a:hover{
     margin-bottom: 3rem;
 }
 /****inicio de mis proyectos****/
-.description-proyectos{
+.column-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.description-conocimientos{
     margin-bottom: 1.8rem;
     font-size: 1.1rem;
     width: 50%;
+}
+.grid-projects{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3em;
+}
+.box-proyecto{
+    border: 2px solid #56776C;
+    background-color: white;
+    padding: 3em 5em 3em 5em;
+    border-radius: 10px;
+}
+.name-project{
+    display: flex;
+    justify-content: center;
 }
 /****inicio de mi form y redes****/
 .contactame-escribime{
@@ -179,13 +196,53 @@ nav ul li a:hover{
 .column-content2{
     flex-basis: 50%;
 }
-/*.button-formulario{
+.button-formulario{
     text-decoration: none;
-    background-color: blueviolet;
-    color: white;
+    background-color: #5B8A72;
+    color: black;
     border-radius: 20px;
     padding: 13px 15px;
     width: 10%;
     display: flex;
     justify-content: center;
+}
+/****inicio del footer****/
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px 60px;
+    background-color: #464F41;
+}
+.nav-footer{
+    background-color: #464F41;
+    display: flex;
+    justify-content: center;
+}
+.etiqueta{
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+}
+.link-footer{
+    margin: 20px 0;
+}
+.icon-footer{
+    background-color: #229954;
+    border-radius: 50%;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+    margin: 0.9rem;
+}
+ol,li{
+    list-style-type: none;
+    display: inline-block;
+}
+.hecho{
+    color: #BFCBA8;
 }

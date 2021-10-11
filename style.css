@@ -84,7 +84,7 @@ nav ul li a:hover{
     padding: 5%;
 }
 .container2-section1{
-    /*width: 50%;*/
+    width: 50%;
 }
 .imagen-dev-principal{
     width: 80%;
@@ -105,9 +105,15 @@ nav ul li a:hover{
 .seccion-dos-conocimientos{ 
     background-color: gainsboro;
 }
+@media (max-width:1100px){
+    .columna{
+        display: flex;
+        flex-direction: column;
+    }
+}
 .columna{
     display: flex;
-    flex-direction: row;
+    /*flex-direction: row;*/
     justify-content: center;
     align-items: center;
 }
@@ -146,7 +152,6 @@ nav ul li a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 /****aqui comienza la seccion de mi cita****/
 .section{
